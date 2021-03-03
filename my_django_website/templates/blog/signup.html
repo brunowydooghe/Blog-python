@@ -1,0 +1,94 @@
+{% extends blog %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title>Online Food Ordering</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animsition.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+     </head>
+<body>
+     <div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
+
+         <header id="header" class="header-scroll top-header headrom">
+         </header>
+         <div class="page-wrapper">
+            <div class="breadcrumb">
+               <div class="container">
+                  <ul>
+                     <li><a href="#" class="active">Home</a></li>
+                     <li><a href="#">Login</a></li>
+
+                  </ul>
+               </div>
+            </div>
+            <section class="contact-page inner-page">
+               <div class="container">
+                  <div class="row">
+
+                     <div class="col-md-8">
+                        <div class="widget">
+                           <div class="widget-body">
+                              <p style="font-size:16px; color:red" align="center"></p>
+                              <form action="" name="login" method="post">
+                                 <div class="row">
+                                    <div class="form-group col-sm-6">
+                                       <input type="text" name="emailcont" id="email" class="form-control" placeholder="Registered Email or Contact Number"
+                      required="true" >
+                                    </div> </div>
+                                    <div class="row">
+                                    <div class="form-group col-sm-6">
+<input type="password" class="form-control" id="password" value="" name="password" required="true" placeholder="Password">
+                                    </div>
+
+                                      </div>
+
+                                 <div class="row">
+                                    <div class="col-sm-5">
+                                      <button type="submit" name="login" class=" btn btn-success"><i class="ft-user"></i>Login</button>
+                                    </div>
+                                    <div class="col-sm-4">
+                          <a href="index.html" class="btn btn-success"><i class="ft-user"></i>Register</a>
+
+                        </div>
+                                 </div>
+                              </form>
+                           </div>
+
+                        </div>
+
+                     </div>
+                     <!-- WHY? -->
+                    <div class="col-md-3">
+                        <h4>Registration is fast, easy, and free.</h4>
+                        <hr>
+                        <img src="images/login1.jpg" alt="" class="img-fluid">
+                        <p></p>
+
+
+                        <!-- end:Panel -->
+                        <h4 class="m-t-20">Contact Customer Support</h4>
+                        <p> Feel free to contact us for any further questions </p>
+                        <p> <a href="contact.html" class="btn btn-success m-t-15">Contact us</a> </p>
+                     </div>
+
+                  </div>
+               </div>
+            </section>
+
+
+         </div>
+
+      </div>
+
+{% endblock content %}

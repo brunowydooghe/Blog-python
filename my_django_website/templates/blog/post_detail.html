@@ -1,0 +1,28 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 card mb-4 mt-3 left top">
+            <div class="card-body">
+                <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
+                {% for img in image %}
+                <div class="destination item">
+                   <div class="destination_content">
+                       <div class="destination_title"><a href=""> src= "{{img.name}}" </a></div>
+                       <div class="destination_subtitle"> <p> {{img.descript}}</p></div>
+                   </div>
+               </div>
+               {%endfor%}
+               <div class="destination_image">
+                <img  src="{{ post.image.url }}" width="100%">
+                <p class="text-muted"> {{ post.author }} | {{ post.created_on }}</p>
+                <p class="card-text"> {{ object.content | safe}}</p>
+            </div>
+        </div>
+        </div>
+       {% block aboutus %} {% include 'blog/aboutus.html' %} {% endblock aboutus %}
+    </div>
+</div>
+
+{% endblock content %}

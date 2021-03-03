@@ -1,0 +1,312 @@
+body{
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            background-color: #030303;
+
+        }
+h2.card-body2{
+  border-bottom: 3px solid #8db392;
+  padding: 1em;
+  font-size: 12px;
+  text-align:center;
+  border-color:#58b1bf;
+}
+
+        .shadow {
+            box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #f00000;
+            border-color: #dc281e;
+            margin-bottom: 10px;
+        }
+
+        .masthead{
+            background: #3398E1;
+            height: auto;
+            padding-bottom: 15px;
+            box-shadow: 0 16px 48px #E3E7EB;
+            padding-top: 10px
+        }
+        .navbar-brand img {
+            width: 24%;
+            float: left;
+        }
+       .container-fluid{
+       margin-top:15px;
+       margin-bottom:10px;
+       justify-content: space-between;
+       }
+
+.navbar-collapse{
+    text-align: right;
+   }
+   .navbarResponsive{
+    margin-top: -6%;
+    margin-right: 0;
+    padding-top: 4px;
+    padding-bottom: 19px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+.h6 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 150%;
+   color: #f2f2f2;
+}
+
+.p  {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 72%;
+
+}
+.textcolor{
+color: white;
+}
+
+.btn-success {
+  background-color: #00ff0b; /* Green */
+    border-color:  #f8f9fa;
+  color: white;
+  text-color:#f8f9fa;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div.b {
+ : underline; /* Safari */
+   text-decoration-line: underline;
+}
+
+.d-block{
+    display: 80%!important;
+    padding:25px;
+    }
+}
+.w-100{
+    width: 80%!important;
+    }
+
+.logo123 img {
+width: 24%;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+
+@media (min-width: 768px)
+.col-sm-3 {
+    width: 25%;
+}
+div.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+#footer h5{
+    font-family: lato,sans-serif;
+    font-size: 15px;
+    color: #fff
+}
+div.row {
+    margin-right: 0px;
+    margin-left: -17px;
+}
+@media (min-width: 768px)
+.col-sm-3 {
+    width: 25%;
+}
+@media (min-width: 768px)
+.col-sm-8 {
+    width: 66.66666667%;
+}
+@media (min-width: 768px)
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+#footer h2{
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #fff;
+    padding-left: 2%;
+    margin-top: 6%;
+    margin-left: 0!important;
+}
+#footer h3{
+    font-family: poppins,sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+}
+#footer h4 {
+    margin-top: 10%;
+    font-family: poppins,sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+#footer{
+    padding: 60px 0 25px;
+}
+#footer .footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#footer .footer-social-icons ul {
+    margin-top: 9%;
+    padding: 0;
+}
+#footer .footer-social-icons ul li {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin: 0 1px;
+    border-radius: 100%;
+    background: #fff;
+    text-align: center;
+}
+#footer .footer-social-icons ul li a {
+    color: #17acc6;
+    font-size: 18px;
+}
+#footer .footer-social-icons ul li a i {
+    line-height: 33px;
+}
+#footer .footer-social-icons ul li a {
+    color: #17acc6;
+    font-size: 18px;
+}
+#footer .footer-social-icons ul li a i {
+    line-height: 33px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#footer input {
+    margin-top: 1.5%;
+    padding: 1.5%;
+    border: none;
+    background-color: #fff;
+    color: gray;
+    font-family: poppins,sans-serif;
+}
+#footer button {
+    padding: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: none;
+    background-color: #1fdbff;
+    color: #fff;
+    font-family: poppins,sans-serif;
+}
+
+#body .container1{
+text-align:center;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+    margin-left: 150px;
+      }
+ #body .card-title{
+      padding: 10px;
+  }
+ #body .btn btn-primary{
+      padding-left: 10px;
+  }
+
+#body .p {
+  text-align: center;
+}
+#navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background: white;
+    background-size: 100% 100%;
+}
+

@@ -1,0 +1,122 @@
+{% block aboutus %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+html{
+  padding: 0;
+  margin:0 ;
+}
+
+#container{
+  background-image: linear-gradient(to top, rgba(205, 156, 242, 0.40) 0%, rgba(246, 255, 255, 0.71) 100%);
+  box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+  text-align: center;
+  border-radius: 1px;
+  margin: 2em auto;
+  background: rgba(255, 255, 255, 0.95);
+  height: 250px;
+  width: 250px;
+  padding: 0.3em;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#container h2 {
+    background: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+/*  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
+  font-family: 'Playfair Display', serif;
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  margin: 0;
+}
+#container p {
+  font-family: 'Farsan', cursive;
+  margin: 3px 0 1.5em 0;
+  font-size: 1.3em;
+  color: #7d7d7d;
+}
+
+#container input {
+/*  background: rgba(255, 13, 254, 0.90); */
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 7px;
+  background: #eee;
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  color: #222;
+  transition: 0.3s linear;
+}
+::placeholder{color: #999;}
+#container input:focus {background: rgba(0, 0, 333, 0.10);}
+
+#container button {
+  color: black;
+  box-shadow: 0 9px 25px -5px #df91fb;
+  font-family: 'Abel', sans-serif;
+  padding: 0.5em 1.9em;
+  margin: 2.3em 0 0 0;
+  border-radius: 7px;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: black;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  transition: 0.3s linear;
+}
+#container button:hover{transform: translatey(2px);}
+#container button:active{transform: translatey(5px);}
+
+.follow{
+  background-image: linear-gradient(to top, rgba(205, 156, 242, 0.40) 0%, rgba(246, 255, 255, 0.71) 100%);
+  box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+  text-align: center;
+  border-radius: 1px;
+  margin: 2em auto;
+  background: rgba(255, 255, 255, 0.95);
+  height: 150px;
+  width: 250px;
+  padding: 0.3em;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.follow p{
+   background: blue;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+/*  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
+  font-family: 'Playfair Display', serif;
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  margin: 0;
+}
+.follow h4{
+ font-family: 'Farsan', cursive;
+  font-size: 1.3em;
+  color: #7d7d7d;
+}
+    </style>
+
+  <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+  <svg style="visibility: hidden; position: absolute;" width="80" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+          <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+              <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+          </filter>
+      </defs>
+  </svg>
+
+
+    {% endblock aboutus %}
+
